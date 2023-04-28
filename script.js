@@ -23,3 +23,11 @@ return console.log(arr);
 search(animals, 'ко');
 search(fructs,'гру');
 search(animals,'Кино');
+
+// Задание № 3
+
+const a = 32.58884;
+
+console.log(Math.floor(a));
+console.log(Math.ceil(a));
+console.log(Math.round(a));
