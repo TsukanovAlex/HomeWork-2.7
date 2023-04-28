@@ -64,3 +64,8 @@ function randomNumber(a, b) {
     return Math.floor(Math.random() * (b - a) + a);    
  }
  console.log(randomNumber(3, 8));
+
+ // Задание № 8
+
+ let date = new Date;
+ console.log(date);
