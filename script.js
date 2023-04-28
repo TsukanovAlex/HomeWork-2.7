@@ -31,3 +31,11 @@ const a = 32.58884;
 console.log(Math.floor(a));
 console.log(Math.ceil(a));
 console.log(Math.round(a));
+
+// Задание № 4
+
+const number = [52, 53, 49, 77, 21, 32];
+const min = Math.min(...number);
+const max = Math.max(...number);
+console.log(min);
+console.log(max);
