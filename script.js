@@ -46,3 +46,16 @@ function randomNumber(min, max) {
     return Math.round(Math.random() * (min - max)) + max;  
 }
 console.log(randomNumber(1, 10));
+
+// Задание № 6 
+
+function randomNumber(n) {
+    const arrRandomNumber = [];
+    for (let i = 0; i < n / 2; i++) {
+      arr.push(Math.floor(Math.random() * (n + 1)));
+    }
+    return arrRandomNumber;
+  }
+  console.log(randomNumber(10));
+
+  
