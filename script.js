@@ -69,3 +69,9 @@ function randomNumber(a, b) {
 
  let date = new Date;
  console.log(date);
+
+ // Задание № 9 
+
+let currentDate = new Date();
+currentDate.setDate(currentDate.getDate() + 73);
+console.log(currentDate);
