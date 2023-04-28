@@ -75,3 +75,21 @@ function randomNumber(a, b) {
 let currentDate = new Date();
 currentDate.setDate(currentDate.getDate() + 73);
 console.log(currentDate);
+
+// Задание № 10
+
+function myDate(index) {
+    const daysOfWeek = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+    const months = ['Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня', 'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'];
+    const dayOfWeek = daysOfWeek[index.getDay()];
+    const day = index.getDate();
+    const month = months[index.getMonth()];
+    const year = index.getFullYear();
+    const hours = index.getHours().toString().padStart(2, '0');
+    const minutes = index.getMinutes().toString().padStart(2, '0');
+    const seconds = index.getSeconds().toString().padStart(2, '0');
+   
+    return `Дата: ${day} ${month} ${year}: ${dayOfWeek} Время: ${hours}:${minutes}:${seconds}`;
+    }
+    const currentDate = new Date();
+    console.log(myDate(currentDate));
