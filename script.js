@@ -58,4 +58,9 @@ function randomNumber(n) {
   }
   console.log(randomNumber(10));
 
-  
+  // Задание № 7 
+
+function randomNumber(a, b) {
+    return Math.floor(Math.random() * (b - a) + a);    
+ }
+ console.log(randomNumber(3, 8));
