@@ -39,3 +39,10 @@ const min = Math.min(...number);
 const max = Math.max(...number);
 console.log(min);
 console.log(max);
+
+// Задание № 5 
+
+function randomNumber(min, max) {
+    return Math.round(Math.random() * (min - max)) + max;  
+}
+console.log(randomNumber(1, 10));
